@@ -1,5 +1,5 @@
-Data/raw/
-Data/clean/
-Notebooks/
-Docs/
-Reflections/
+Data/raw/.gitkeep
+Data/clean/.gitkeep
+Notebooks/.gitkeep
+Docs/.gitkeep
+Reflections/.gitkeep
