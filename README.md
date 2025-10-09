@@ -50,7 +50,17 @@ Week 5 — Power BI / dashboard + communication
 Week 6 — Final presentation + reflection
 
 ## Author
+```
 Arthur Dorvil
-
 MIT Emerging Talent Cohort 6
+```
+
+## 📜License
+
+All code is released under the MIT License. Data files remain under the terms
+specified by their original providers.
+
+---
+
+*For questions or collaboration proposals, open an issue or reach out.
 
