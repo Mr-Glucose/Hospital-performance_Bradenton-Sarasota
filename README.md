@@ -1,5 +1,5 @@
 # Hospital-performance (Bradenton-Sarasota)
-Local hospital readmission and quality comparison — Manatee, Blake, Sarasota, Lakewood Ranch.
+Comparative analysis of readmission rates and patient satisfaction metrics across four major hospitals in the Bradenton-Sarasota metropolitan area using publicly available CMS data.
 
 # Hospital Performance & Readmission Insights — Bradenton / Sarasota
 
@@ -10,18 +10,23 @@ This project analyzes publicly available hospital-level data to compare readmiss
 - Lakewood Ranch Medical Center
 - Sarasota Memorial
 
-## Research Question
-How do readmission rates and patient satisfaction differ across these hospitals, and what factors might explain those differences?
-
-## Constraints
-- Individual project scope
-- Public data sources only (CMS, Florida Health Finder)
-- Python-based analysis
-
 ## Learning Objectives
 - Healthcare data analysis proficiency
 - Data visualization for public communication
 - Statistical interpretation skills
+  
+## Research Question
+How do readmission rates and patient satisfaction differ across these hospitals, and what factors might explain those differences?
+
+## Technical Approach
+- Data Sources: CMS Hospital Compare, Florida Health Finder
+- Tools: Python, Pandas, Data Visualization Libraries
+- Methods: Comparative analysis, statistical evaluation, data visualization
+  
+## Constraints & Scope
+- Analysis limited to publicly available data
+- Focus on four local hospitals for comparative insights
+- Python-based analytical approach
 
 ## Project Structure
 - `/data/raw/` — unprocessed downloaded data  
