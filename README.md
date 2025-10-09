@@ -29,11 +29,14 @@ How do readmission rates and patient satisfaction differ across these hospitals,
 - Python-based analytical approach
 
 ## Project Structure
-- `/data/raw/` — unprocessed downloaded data  
-- `/data/clean/` — cleaned datasets ready for analysis  
-- `/notebooks/` — Jupyter or Colab notebooks  
-- `/docs/` — charts, reports, communication materials  
-- `/reflections/` — personal reflections and milestone notes
+📁 `0_domain_research/    — Problem definition & background
+📁 1_datasets/           — Raw → Cleaned data pipeline  
+📁 2_data_preparation/   — Data processing scripts
+📁 3_data_exploration/   — Initial analysis & EDA
+📁 4_data_analysis/      — Statistical insights
+📁 5_communication/      — Final deliverables
+📁 6_presentation/       — Presentation assets
+📁 reflections/          — Learning journey`
 
 ## Timeline (Week-by-Week)
 Week 1 — Problem definition, data collection setup  
