@@ -31,14 +31,14 @@ How do readmission rates and patient satisfaction differ across these hospitals,
 ## Project Structure
 
 ```
-📁 0_domain_research/    — Problem definition & background
+📁 0_domain_research/    — Problem framing & background study
 📁 1_datasets/           — Raw → Cleaned data pipeline  
-📁 2_data_preparation/   — Data processing scripts
-📁 3_data_exploration/   — Initial analysis & EDA
+📁 2_data_preparation/   — Data cleaning & processing scripts
+📁 3_data_exploration/   — Initial analysis & visualization
 📁 4_data_analysis/      — Statistical insights
-📁 5_communication/      — Final deliverables
-📁 6_presentation/       — Presentation assets
-📁 reflections/          — Learning journey
+📁 5_communication/      — Final deliverables & artifacts
+📁 6_presentation/       — Presentation materials
+📁 reflections/          — Learning progress & retrospectives
 ```
 
 ## Timeline (Week-by-Week)
