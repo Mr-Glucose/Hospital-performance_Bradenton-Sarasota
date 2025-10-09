@@ -13,6 +13,16 @@ This project analyzes publicly available hospital-level data to compare readmiss
 ## Research Question
 How do readmission rates and patient satisfaction differ across these hospitals, and what factors might explain those differences?
 
+## Constraints
+- Individual project scope
+- Public data sources only (CMS, Florida Health Finder)
+- Python-based analysis
+
+## Learning Objectives
+- Healthcare data analysis proficiency
+- Data visualization for public communication
+- Statistical interpretation skills
+
 ## Project Structure
 - `/data/raw/` — unprocessed downloaded data  
 - `/data/clean/` — cleaned datasets ready for analysis  
