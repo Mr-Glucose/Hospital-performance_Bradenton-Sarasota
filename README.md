@@ -29,6 +29,7 @@ How do readmission rates and patient satisfaction differ across these hospitals,
 - Python-based analytical approach
 
 ## Project Structure
+
 📁 0_domain_research/    — Problem definition & background
 📁 1_datasets/           — Raw → Cleaned data pipeline  
 📁 2_data_preparation/   — Data processing scripts
