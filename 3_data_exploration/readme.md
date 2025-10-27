@@ -1,7 +1,7 @@
 # 🏥 Hospital Performance — Data Exploration  
 ### Bradenton–Sarasota Area | HCAHPS · Readmissions · Safety
 
-> This page summarizes the **exploratory analysis (Day 5)** and links to the interactive charts.
+> This page summarizes the **exploratory analysis** and links to the interactive charts.
 
 ---
 
