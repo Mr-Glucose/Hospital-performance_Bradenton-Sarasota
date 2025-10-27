@@ -178,8 +178,8 @@ This analysis compares four hospitals using **HCAHPS patient experience**, **Rea
 ## 6) Data & Reproducibility
 
 **Cleaned datasets**
-- `../1_datasets/cleaned/hospital_clean.csv`  
-- `../1_datasets/cleaned/hospital_measures_long.csv`
+- `./1_datasets/cleaned/hospital_clean.csv`  
+- `./1_datasets/cleaned/hospital_measures_long.csv`
 
 **Notebook / Script**
 - `03_data_exploration.ipynb` (this folder)
@@ -196,7 +196,7 @@ This analysis compares four hospitals using **HCAHPS patient experience**, **Rea
 ## 7) How to View the Charts Locally
 
 1. Clone the repo and open this folder in VS Code.  
-2. Open any HTML file from `../4_outputs/visualizations/` in your browser.  
+2. Open any HTML file from `./4_outputs/visualizations/` in your browser.  
 3. Use the PNGs in presentations or the main project README.
 
 ---
