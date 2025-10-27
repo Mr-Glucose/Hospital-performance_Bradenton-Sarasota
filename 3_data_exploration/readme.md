@@ -7,7 +7,7 @@
 
 ## 🔗 Quick Links to Visuals
 
-- **Overall Comparison** — [Interactive](../4_outputs/visualizations/01_overall_comparison.html) · ![PNG](https://github.com/Mr-Glucose/hospital-performance-bradenton-sarasota/blob/main/4_outputs/visualizations/01_overall_comparison.png)
+- **Overall Comparison** — [Interactive](../4_outputs/visualizations/01_overall_comparison.html) · ![PNG](./4_outputs/visualizations/01_overall_comparison.png)
 - **Top 5 HCAHPS (Overall)** — [Interactive](../4_outputs/visualizations/02_top5_hcahps.html) · ![PNG](../4_outputs/visualizations/02_top5_hcahps.png)
 - **Bottom 5 HCAHPS (Overall)** — [Interactive](../4_outputs/visualizations/03_bottom5_hcahps.html) · ![PNG](../4_outputs/visualizations/03_bottom5_hcahps.png)
 - **Treemap: Top 5 by Hospital** — [Interactive](../4_outputs/visualizations/04_treemap_top5.html) · ![PNG](../4_outputs/visualizations/04_treemap_top5.png)
