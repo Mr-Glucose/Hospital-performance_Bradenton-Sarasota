@@ -101,7 +101,7 @@ This analysis provides:
 
 ---
 
-**Prepared by:** Lens Marc-Arthur Dorvil  
+**Prepared by:** Arthur Dorvil  
 **Project:** MIT Emerging Talent (ET6) - Collaborative Data Science Capstone  
 **Date:** October 2025  
 **GitHub Repository:** [Hospital Performance Analysis](https://github.com/mr-glucose/Hospital-performance_Bradenton-Sarasota)
