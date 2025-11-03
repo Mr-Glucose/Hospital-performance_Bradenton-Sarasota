@@ -247,7 +247,7 @@ The correlation between patient experience and readmissions (-0.92) suggests a s
 - Cannot prove causation (only correlation)
 - 13-month data lag
 
-**Full methodology:** See [Technical Report](../4_data_analysis/technical_report.md)
+**Full methodology:** See [Technical Report](../4_data_analysis/TECHNICAL_Report.md)
 
 ---
 
@@ -276,7 +276,7 @@ And sometimes, knowing where to start is enough.
 
 **Detailed Reports:**
 - [Non-Technical Report](../4_data_analysis/non_technical_report.md) - Full analysis in accessible language
-- [Technical Report](../4_data_analysis/technical_report.md) - Methodology and statistics
+- [Technical Report](../4_data_analysis/TECHNICAL_Report.md) - Methodology and statistics
 - [Executive Summary](./executive_summary.md) - One-page professional overview
 
 ---
