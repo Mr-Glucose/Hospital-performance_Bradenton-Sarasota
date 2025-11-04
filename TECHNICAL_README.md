@@ -47,6 +47,26 @@ How do readmission rates and patient satisfaction differ across Bradenton-Saraso
 
 ## Methodology
 
+### Data Analysis Pipeline Architecture
+
+```mermaid
+graph LR
+    A[CMS Hospital Compare<br/>Oct 2023 - Sep 2024] --> B[Raw CSV Data<br/>4 Datasets]
+    B --> C[Data Cleaning<br/>Python/Pandas]
+    C --> D[Feature Engineering<br/>119 Measures]
+    D --> E[Statistical Analysis<br/>Correlation & Benchmarking]
+    D --> F[Visualization<br/>Plotly + Power BI]
+    E --> G[Insights & Reports<br/>3 Audience Types]
+    F --> G
+    
+    style A fill:#4ECDC4
+    style G fill:#FFA07A
+    style D fill:#45B7D1
+    style E fill:#95E1D3
+```
+
+This automated pipeline transforms raw healthcare data into actionable insights through five integrated stages, processing 476 individual data points across multiple quality domains.
+
 ### 1. Data Collection & Preparation
 - Downloaded publicly available CMS datasets (CSV format)
 - Filtered for target hospitals by CMS Provider ID
@@ -79,6 +99,34 @@ How do readmission rates and patient satisfaction differ across Bradenton-Saraso
 #### Business Intelligence Dashboard (Power BI)
 
 **Live Dashboard:** [View Power BI Report](https://app.powerbi.com/view?r=YOUR_DASHBOARD_LINK_HERE)
+
+**Visualization Stack Architecture:**
+
+```mermaid
+graph TB
+    A[Raw Data Sources<br/>CMS Hospital Compare] --> B[Data Preparation<br/>Python/Pandas]
+    B --> C[Clean CSV Files<br/>hospital_measures_long.csv]
+    
+    C --> D[Power BI Desktop<br/>Dashboard Design]
+    C --> E[Plotly Python<br/>Interactive HTML]
+    
+    D --> F[Power BI Service<br/>Cloud Publishing]
+    E --> G[GitHub Pages<br/>Static Web Hosting]
+    
+    F --> H[Executive Dashboard<br/>KPIs + Interactivity]
+    G --> I[Developer Portfolio<br/>Technical Demos]
+    
+    H --> J[Business Stakeholders<br/>Board Members, Admins]
+    I --> K[Technical Audience<br/>Recruiters, Data Scientists]
+    
+    style D fill:#FFA07A
+    style E fill:#4ECDC4
+    style J fill:#95E1D3
+    style K fill:#95E1D3
+    style C fill:#45B7D1
+```
+
+This dual-visualization approach ensures accessibility for both executive stakeholders (Power BI) and technical audiences (interactive web visualizations), demonstrating full-stack data communication capabilities.
 
 **Features:**
 - Single-page executive overview with KPI cards
@@ -125,6 +173,32 @@ Created 5 interactive HTML visualizations:
 | Lakewood Ranch | 83.2 | 14.8% | 91.5 |
 | Manatee Memorial | 81.8 | 16.1% | 89.7 |
 | Blake Hospital | 79.4 | 16.5% | 88.2 |
+
+### Statistical Correlation Architecture
+
+```mermaid
+graph TD
+    A[Hospital Performance Data<br/>4 Facilities Analyzed] --> B[Patient Experience<br/>HCAHPS: 84.2 avg]
+    A --> C[Readmission Rates<br/>30-Day: 15.6% avg]
+    A --> D[Safety Indicators<br/>Score: 91.0 avg]
+    
+    B --> E[Pearson Correlation<br/>Analysis]
+    C --> E
+    D --> E
+    
+    E --> F[Strong Negative<br/>r = -0.92, p < 0.01]
+    E --> G[Strong Positive<br/>r = +0.78, p < 0.01]
+    E --> H[Weak Correlation<br/>r < 0.5]
+    
+    F --> I[Key Insight:<br/>Patient Experience ↔ Readmissions<br/>Better satisfaction = Fewer returns]
+    
+    style F fill:#95E1D3
+    style I fill:#FFA07A
+    style A fill:#4ECDC4
+    style E fill:#45B7D1
+```
+
+**Interpretation:** The strong negative correlation (r = -0.92) between patient experience and readmissions suggests that hospitals investing in patient satisfaction directly impact clinical outcomes and reduce costly 30-day returns.
 
 ### Statistical Correlations
 
@@ -197,6 +271,43 @@ Created 5 interactive HTML visualizations:
 ├── TECHNICAL_README.md                # This file
 └── requirements.txt                   # Python dependencies
 ```
+
+### Project Architecture Visualization
+
+```mermaid
+graph TD
+    A[Hospital Performance Analysis] --> B[0_domain_research<br/>Problem Statement]
+    A --> C[1_datasets<br/>Raw + Cleaned]
+    A --> D[2_data_preparation<br/>Python Scripts]
+    A --> E[3_data_exploration<br/>Analysis + Viz]
+    A --> F[4_data_analysis<br/>Reports]
+    A --> G[5_communication_strategy<br/>Stakeholder Docs]
+    A --> H[6_presentation<br/>Final Deliverables]
+    
+    C --> C1[raw/ - Original CSVs]
+    C --> C2[cleaned/ - Processed]
+    
+    E --> E1[Jupyter Notebooks]
+    E --> E2[5 Interactive Charts<br/>Plotly HTML]
+    
+    F --> F1[Technical Report]
+    F --> F2[Non-Technical Report]
+    F --> F3[Executive Summary]
+    
+    G --> G1[Communication Plan]
+    G --> G2[Target Audiences]
+    
+    H --> H1[Presentation Slides]
+    H --> H2[Video Recording]
+    H --> H3[Power BI Dashboard]
+    
+    style A fill:#FF6B6B
+    style E2 fill:#4ECDC4
+    style H fill:#95E1D3
+    style F fill:#FFA07A
+```
+
+This modular structure follows data science best practices, with clear separation between data collection, preparation, analysis, and communication phases.
 
 ---
 
