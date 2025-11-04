@@ -20,7 +20,27 @@ Better medication communication isn't just about scores. It's about patients lea
 ---
 
 ## Target Audiences
-
+```mermaid
+%%{init: {'theme':'base', 'themeVariables': { 'primaryColor':'#4ECDC4', 'primaryTextColor':'#000', 'primaryBorderColor':'#000', 'lineColor':'#4ECDC4', 'secondaryColor':'#FFA07A', 'tertiaryColor':'#95E1D3'}}}%%
+mindmap
+  root((Hospital Performance<br/>Analysis))
+    Hospital Administrators
+      Executive Summary
+      ROI Analysis
+      Actionable Steps
+    Healthcare Professionals
+      Best Practices
+      Workflow Integration
+      Peer Recognition
+    Patients & Families
+      Storytelling
+      Advocacy Tips
+      Hospital Comparison
+    Data Scientists
+      Technical Report
+      Code Repository
+      Methodology
+```
 ### 1. 🏥 Hospital Administrators & Quality Improvement Teams
 
 **What They Need:**
