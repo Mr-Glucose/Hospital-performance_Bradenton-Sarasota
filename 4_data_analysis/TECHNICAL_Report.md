@@ -46,7 +46,19 @@ This project conducts a comprehensive comparative analysis of hospital quality m
 4. HCA Florida Blake Hospital (Provider ID: 100213)
 
 ### Data Processing Pipeline
-
+```mermaid
+graph LR
+    A[CMS Hospital Compare<br/>Oct 2023 - Sep 2024] --> B[Raw CSV Data<br/>4 Datasets]
+    B --> C[Data Cleaning<br/>Python/Pandas]
+    C --> D[Feature Engineering<br/>119 Measures]
+    D --> E[Statistical Analysis]
+    D --> F[Visualization]
+    E --> G[Insights]
+    F --> G
+    
+    style A fill:#4ECDC4
+    style G fill:#FFA07A
+```
 ```python
 # 1. Data Collection
 raw_data/
@@ -105,6 +117,23 @@ raw_data/
 | 2 | Lakewood Ranch | 83.0 | 0.95 | 12.96 |
 | 3 | Manatee Memorial | 79.8 | 1.00 | 12.82 |
 | 4 | Blake Hospital | 77.2 | 1.00 | 13.07 |
+
+```mermaid
+graph LR
+    A[4 Hospitals Analyzed] --> B[Sarasota Memorial<br/>⭐ 84.2]
+    A --> C[Lakewood Ranch<br/>⭐ 83.0]
+    A --> D[Manatee Memorial<br/>⭐ 79.8]
+    A --> E[Blake Hospital<br/>⭐ 77.2]
+    
+    B --> F[Best Practices]
+    C --> F
+    D --> G[Improvement Areas]
+    E --> G
+    
+    style B fill:#95E1D3
+    style E fill:#FFA07A
+```
+**Key insight:** Sarasota Memorial leads across all categories...
 
 ### Statistical Correlations
 
@@ -217,7 +246,18 @@ Hospital-performance_Bradenton-Sarasota/
 ## 📈 Visualization Architecture
 
 ### Business Intelligence Dashboard (Power BI)
-
+```mermaid
+graph TB
+    A[Raw Data] --> B[Python Cleaning]
+    B --> C[Clean CSVs]
+    C --> D[Power BI]
+    C --> E[Plotly]
+    D --> F[Executive Dashboard]
+    E --> G[Web Portfolio]
+    
+    style D fill:#FFA07A
+    style E fill:#4ECDC4
+```
 **Live Dashboard:** [View Power BI Report](https://app.powerbi.com/view?r=YOUR_DASHBOARD_LINK_HERE)
 
 **Features:**
@@ -449,7 +489,7 @@ This analysis is fully reproducible. All code, data cleaning scripts, and analys
 
 **Compute Requirements:**
 - RAM: 4GB minimum
-- Storage: 100MB for data
+- Storage: 100+MB for data
 - Time: ~5 minutes for complete pipeline
 
 **Determinism:**
@@ -480,6 +520,6 @@ For technical questions about reproducing this analysis:
 
 ---
 
-**Last Updated:** October 29, 2025  
-**Version:** 1.0.0  
+**Last Updated:** November 3, 2025  
+**Version:** 1.1.0  
 **Maintainer:** Arthur Dorvil (@mr-glucose)
