@@ -413,7 +413,7 @@ This is an educational project completed for MIT Emerging Talent. While the core
 
 - **GitHub Issues**: [Open an issue](https://github.com/mr-glucose/Hospital-performance_Bradenton-Sarasota/issues)
 - **Email**: Via GitHub profile
-- **LinkedIn**: [Arthur Dorvil](https://www.linkedin.com/in/arthur-dorvil)
+- **LinkedIn**: [Arthur Dorvil](https://www.linkedin.com/in/lens-marc-arthur-dorvil)
 
 ---
 
