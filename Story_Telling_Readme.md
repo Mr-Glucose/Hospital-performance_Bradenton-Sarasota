@@ -54,18 +54,44 @@ Every single hospital struggled with the same thing: **medication communication*
 - **19-point gap** between medication communication and nurse communication
 
 **What does this mean?**
-
+### 🏥 If You're a Hospital Administrator
+```mermaid
+flowchart TD
+    A[8-Point Gap Identified] --> B{Implement Changes?}
+    B -->|Yes| C[Pharmacist Counseling]
+    B -->|Yes| D[Visual Schedules]
+    B -->|Yes| E[Follow-Up Calls]
+    C --> F[Improved Communication]
+    D --> F
+    E --> F
+    F --> G[Better Patient Understanding]
+    G --> H[Fewer Readmissions]
+    H --> I[Cost Savings + Better Outcomes]
+    
+    style I fill:#080c80
+    style A fill:#FFA07A
+```
 When nurses and doctors talk to patients, they excel (scores in the high 80s). But when pharmacists or nurses explain new medications—what they do, possible side effects, when to take them—the system breaks down.
 
-For someone like Robert managing 7 medications, that gap is dangerous.
+For someone like Robert, managing 7 medications, that gap is dangerous.
 
-### 🔗 The Surprising Connection
+## 🔗 The Surprising Connection
 
-We found something unexpected: **hospitals where patients feel well-informed are the same hospitals with fewer readmissions**.
-
+We found something unexpected: **hospitals where patients feel well-informed 
+are the same hospitals with fewer readmissions**.
+```mermaid
+graph LR
+    A[Better Medication<br/>Communication] --> B[Patient<br/>Understanding]
+    B --> C[Proper<br/>Medication Use]
+    C --> D[Fewer ER<br/>Returns]
+    D --> E[Lower<br/>Readmissions]
+    
+    style A fill:#4ECDC4
+    style E fill:#080c80
+```
 The correlation: **-0.92** (nearly perfect negative relationship)
 
-Translation: When patients understand their care, they're far less likely to come back to the ER within 30 days.
+Translation: When patients understand their care, they're far less likely to return to the ER within 30 days.
 
 ---
 
