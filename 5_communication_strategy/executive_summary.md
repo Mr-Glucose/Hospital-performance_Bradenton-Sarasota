@@ -154,7 +154,23 @@ Beyond direct financial impact:
 ---
 
 ## 🚀 Next Steps for Implementation
-
+```mermaid
+gantt
+    title Quality Improvement Implementation Timeline
+    dateFormat  YYYY-MM
+    section Immediate (0-3 Months)
+    Pharmacist Counseling       :2025-12, 3M
+    Visual Medication Aids      :2025-12, 3M
+    Teach-Back Training         :2026-01, 2M
+    
+    section Short-Term (3-6 Months)
+    Follow-Up Call System       :2026-02, 4M
+    Best Practice Sharing       :2026-03, 3M
+    
+    section Long-Term (6-12 Months)
+    EHR Integration            :2026-06, 6M
+    Regional Collaborative     :2026-06, 12M
+```
 **Week 1-2: Planning**
 - Form quality improvement working group
 - Review this analysis with leadership and clinical staff
