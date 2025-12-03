@@ -38,7 +38,7 @@
 
 ## 🏥 The Story Behind the Data
 
-Meet Robert. He's 58, a retired mechanic from Bradenton, Florida. After heart surgery, he left Blake Hospital with seven new medications and fifteen minutes of rushed explanation. Three days later, he was back in the emergency room—confused about which pills to take and when.
+Meet Robert. He's 58, a retired mechanic from Bradenton, Florida. After heart surgery, he left Blake Hospital with seven new medications and fifteen minutes of rushed explanation. Fourteen days later, he was back in the emergency room—confused about which pills to take and when.
 
 **Robert's story isn't unique. It's predictable.**
 
