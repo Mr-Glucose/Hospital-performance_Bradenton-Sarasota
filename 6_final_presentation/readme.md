@@ -197,14 +197,14 @@ MIT Emerging Talent (ET6) - Certificate in Computer and Data Science
 ## 📊 Skills Demonstrated
 
 This dashboard showcases:
-- ✅ Business Intelligence tool proficiency (Power BI)
-- ✅ Data visualization best practices
-- ✅ Interactive dashboard design
-- ✅ Statistical analysis and correlation interpretation
-- ✅ Executive-level communication
-- ✅ Healthcare domain knowledge (HCAHPS, CMS metrics)
-- ✅ DAX formula creation
-- ✅ Full-stack data workflow (Python → Power BI)
+- ✅ Power BI proficiency (DAX, slicers, KPI cards, interactive dashboards)
+- ✅ Data visualization best practices & clear executive-facing design
+- ✅ Clean data modeling and Python-based data cleaning/transformation
+- ✅ Statistical analysis and correlation interpretation (r, variance, significance)
+- ✅ Strong data storytelling and executive-level communication
+- ✅ Healthcare analytics expertise (HCAHPS, CMS readmissions & quality metrics)
+- ✅ Ability to turn real-world problems into actionable insights
+- ✅ End-to-end project delivery (data → analysis → visualization → strategy)
 
 ---
 
