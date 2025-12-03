@@ -38,7 +38,7 @@
 
 ## 🏥 The Story Behind the Data
 
-Meet Robert. He's 68, a retired mechanic from Bradenton, Florida. After heart surgery, he left Blake Hospital with seven new medications and fifteen minutes of rushed explanation. Three days later, he was back in the emergency room—confused about which pills to take and when.
+Meet Robert. He's 58, a retired mechanic from Bradenton, Florida. After heart surgery, he left Blake Hospital with seven new medications and fifteen minutes of rushed explanation. Three days later, he was back in the emergency room—confused about which pills to take and when.
 
 **Robert's story isn't unique. It's predictable.**
 
@@ -103,21 +103,22 @@ I built a comprehensive Power BI dashboard to visualize hospital performance ana
 
 ### Dashboard Overview
 
-![Power BI Dashboard - Full View](./6_presentation/dashboard_full_view.png)
+![Power BI Dashboard - Full View](./6_final_presentation/Interactive_Dashboard_screenshots/dashboard_full_view.png)
 *Full dashboard showing KPI cards, comparative analysis, and correlation visualization*
 
 ### Key Features
 
 **Interactive Filtering:**
-![Dashboard with Filters Applied](./6_presentation/dashboard_interactive_view.png)
+![Dashboard with Filters Applied](./6_final_presentation/Interactive_Dashboard_screenshots/dashboard_interactive_view1.png)
+![Dashboard with Filters Applied](./6_final_presentation/Interactive_Dashboard_screenshots/dashboard_interactive_view2.png)                                             
 *Demonstrating slicer functionality - click to focus on specific hospitals or measure categories*
 
 **Correlation Analysis (Key Finding):**
-![Scatter Plot - Patient Experience vs Readmissions](./6_presentation/scatter_plot_correlation.png)
+![Scatter Plot - Patient Experience vs Readmissions](./6_final_presentation/scatter_plot_correlation.png)                                                                     
 *Statistical proof: r = -0.92 correlation between patient experience and readmissions*
 
 **Regional Comparison:**
-![Top 5 Strengths Analysis](./6_presentation/top5_strengths.png)
+![Top 5 Strengths Analysis](./6_final_presentation/top5_strengths.png)                                                                                 
 *Identifying what all hospitals do well - opportunities to share best practices*
 
 ---
@@ -135,11 +136,9 @@ I built a comprehensive Power BI dashboard to visualize hospital performance ana
 
 ### Download Dashboard Files
 
-**[📄 View Dashboard (PDF)](./6_presentation/Hospital_Performance_Dashboard.pdf)** - Print-ready version for presentations
+**[📄 View Dashboard (PDF)](./6_final_presentation/Hospital-Performance-Dashboard.pdf)** - Print-ready version for presentations
 
-**[📊 View Dashboard (PowerPoint)](./6_presentation/Hospital_Performance_Dashboard.pptx)** - PowerPoint export with all visuals
-
-**[💾 Download Power BI File (.pbix)](./6_presentation/Hospital_Performance_Dashboard.pbix)** - Requires [Power BI Desktop](https://powerbi.microsoft.com/desktop/) (free) to explore interactively
+**[💾 Download Power BI File (.pbix)](./6_final_presentation/Hospital-Performance-Dashboard.pbix)** - Requires [Power BI Desktop](https://powerbi.microsoft.com/desktop/) (free) to explore interactively
 
 ---
 
@@ -240,36 +239,75 @@ Rather than using arbitrary color schemes, I researched and applied each hospita
 ```
 Hospital-performance_Bradenton-Sarasota/
 │
-├── README.md                           # This file - project overview
+├── README.md                          # Main project overview (this file)
+├── TECHNICAL_README.md                # Technical deep dive (for devs/analysts)
+├── Story_Telling_Readme.md            # Narrative-focused readme (Robert’s story)
+├── LICENSE                            # MIT License
+├── .gitignore
+├── .ls-lint.yml
+├── .markdownlint.yml
 │
-├── 1_problem_statement/
-│   └── readme.md                       # Research question and objectives
+├── 0_domain_research/                 # Problem context & domain understanding
+│   ├── Problem_Statement.md           # Research question & motivation
+│   └── Readme.md                      # Domain research summary
 │
-├── 2_data_collection/
-│   ├── hospital_summary.csv            # Overall hospital metrics
-│   ├── hospital_measures_detailed.csv  # Detailed quality measures
-│   └── readme.md                       # Data sources and methodology
+├── 1_datasets/                        # Raw & cleaned data + documentation
+│   ├── raw/                           # Original CMS/HCAHPS datasets
+│   │   ├── 2025-10-11_complications_deaths.csv.csv
+│   │   ├── 2025-10-11_hospital_general_information.csv.csv
+│   │   ├── 2025-10-11_readmissions.csv.csv
+│   │   └── 2025-10-14_hcahps_hospital.csv.csv
+│   │
+│   ├── cleaned/                       # Analysis-ready datasets
+│   │   ├── hospital_clean.csv
+│   │   ├── hospital_crosswalk.csv
+│   │   └── hospital_measures_long.csv
+│   │
+│   ├── Readme.md                      # Data overview & structure
+│   ├── data_dictionary.md             # Definitions of variables/measures
+│   └── data_sources.md                # Links + source documentation
 │
-├── 3_data_analysis/
-│   ├── analysis.ipynb                  # Statistical analysis code
-│   └── readme.md                       # Analysis methodology
+├── 2_data_preparation/                # Cleaning & preparation notebooks
+│   ├── 02_data_cleaning.ipynb
+│   ├── Data_Cleaning_&_Preparation_(Milestone_2).ipynb
+│   └── readme.md                      # How the prep pipeline works
 │
-├── 4_findings/
-│   └── readme.md                       # Detailed findings and statistics
+├── 3_data_exploration/                # EDA & early insights
+│   ├── 01_exploration.md              # Written summary of exploration
+│   ├── data_cleaning_Vs.ipynb
+│   ├── data_exploration_1.ipynb
+│   ├── data_exploration_cleaned.ipynb
+│   └── readme.md
 │
-├── 5_communication_strategy/
-│   ├── roberts_story.md                # Patient-centered narrative
-│   └── readme.md                       # Communication approach
+├── 4_data_analysis/                   # Final analysis + results
+│   ├── TECHNICAL_Report.md            # Detailed technical analysis
+│   ├── non_technical_report.md        # Plain-language findings
+│   └── readme.md
 │
-└── 6_presentation/
-    ├── readme.md                       # Presentation documentation
-    ├── dashboard_full_view.png         # Dashboard screenshot
-    ├── dashboard_interactive_view.png  # Interactive features demo
-    ├── scatter_plot_correlation.png    # Correlation visualization
-    ├── top5_strengths.png              # Strengths comparison
-    ├── Hospital_Performance_Dashboard.pdf   # PDF export
-    ├── Hospital_Performance_Dashboard.pptx  # PowerPoint export
-    └── Hospital_Performance_Dashboard.pbix  # Power BI source file
+├── 5_communication_strategy/          # How results are communicated
+│   ├── communication_strategy.md      # Audience, channels, messaging
+│   ├── executive_summary.md           # 1–2 page exec-facing summary
+│   ├── storytelling_communication_strategy.md
+│   ├── reflections/                   # Process reflections & notes
+│   │   ├── Day6_Reflection.md
+│   │   ├── day3_exploration_summary.md
+│   │   └── day4_notes.md
+│   └── readme.md
+│
+└── 6_final_presentation/              # Final dashboard & presentation artefacts
+    ├── Interactive_Dashboard_screenshots/
+    │   ├── dashboard_full_view.png
+    │   ├── dashboard_interactive_view1.png
+    │   ├── dashboard_interactive_view2.png
+    │   ├── dashboard_interactive_view3.png
+    │   └── dashboard_interactive_view4.png
+    │
+    ├── Hospital-Performance-Analysis-Dashboard.pbix   # Power BI source file
+    ├── Hospital-Performance-Analysis-Dashboard.pdf    # Dashboard export (PDF)
+    ├── KPI's_Hospitals_Findings.png
+    ├── scatter_plot_correlation.png
+    ├── top5_strengths.png
+    └── readme.md                       # Final presentation & dashboard docs
 ```
 
 ---
@@ -507,4 +545,4 @@ If Robert had understood his medications, he might never have set foot in the ER
 
 ---
 
-*Project completed November 2025 as part of MIT Emerging Talent Certificate in Computer and Data Science*
+*Project completed December 2025 as part of MIT Emerging Talent Certificate in Computer and Data Science*
