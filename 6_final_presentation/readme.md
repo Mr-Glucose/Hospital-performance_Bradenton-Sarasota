@@ -1,7 +1,5 @@
 # Presentation Materials
 
-This folder contains all final presentation materials for the Hospital Performance Analysis capstone project.
-
 ---
 
 ## 📊 Power BI Dashboard
