@@ -11,11 +11,12 @@ Interactive dashboard analyzing hospital performance across 4 facilities in Brad
 ### Dashboard Previews
 
 **Full Dashboard View:**
-![Complete Dashboard](./dashboard_full_view.png)
+![Complete Dashboard](./Interactive_Dashboard_screenshots/dashboard_full_view.png)
 *Full dashboard showing all visualizations: KPI cards, medication gap analysis, regional comparisons, and correlation plot*
 
 **Interactive Features:**
-![Dashboard with Filters Applied](./dashboard_interactive_view.png)
+![Dashboard with Filters Applied](./Interactive_Dashboard_screenshots/dashboard_interactive_view1.png)
+![Dashboard with Filters Applied](./Interactive_Dashboard_screenshots/dashboard_interactive_view2.png)
 *Demonstrating slicer functionality - filtering to specific hospitals for focused analysis*
 
 **Key Finding - Correlation Analysis:**
@@ -32,7 +33,6 @@ Interactive dashboard analyzing hospital performance across 4 facilities in Brad
 
 ### For Viewing:
 - **[📄 Dashboard (PDF)](./Hospital_Performance_Dashboard.pdf)** - PDF version for easy viewing and sharing
-- **[📊 Dashboard (PowerPoint)](./Hospital_Performance_Dashboard.pptx)** - PowerPoint export with all visualizations
 
 ### For Exploration:
 - **[💾 Dashboard Source File (.pbix)](./Hospital_Performance_Dashboard.pbix)** - Requires Power BI Desktop (free) to open and explore interactively
@@ -188,8 +188,8 @@ MIT Emerging Talent (ET6) - Certificate in Computer and Data Science
 **Tools Used:** Python, Power BI, Statistical Analysis
 
 **Connect:**
-- GitHub: [github.com/mr-glucose](https://github.com/mr-glucose)
-- LinkedIn: [Your LinkedIn]
+- GitHub: [Mr-glucose](https://github.com/mr-glucose)
+- LinkedIn: [Here](https://www.linkedin.com/in/lens-marc-arthur-dorvil)
 - Portfolio: [github.com/mr-glucose/Hospital-performance_Bradenton-Sarasota](https://github.com/mr-glucose/Hospital-performance_Bradenton-Sarasota)
 
 ---
@@ -221,9 +221,9 @@ All analysis, visualizations, and insights are original work created for educati
 
 ## 🔄 Updates & Maintenance
 
-**Version:** 1.0 (November 2025)  
+**Version:** 1.1 (November 2025)  
 **Status:** Complete - Ready for portfolio presentation  
-**Last Updated:** November 2025
+**Last Updated:** December 2025
 
 For questions about methodology, data sources, or dashboard usage, please open an issue on the GitHub repository.
 
