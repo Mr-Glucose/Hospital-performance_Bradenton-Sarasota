@@ -16,13 +16,13 @@ Interactive dashboard analyzing hospital performance across 4 facilities in Brad
 ![Dashboard with Filters Applied](./Interactive_Dashboard_screenshots/dashboard_interactive_view2.png)
 *Demonstrating slicer functionality - filtering to specific hospitals for focused analysis*
 
-**Key Finding - Correlation Analysis:**
-![Scatter Plot - Patient Experience vs Readmissions](./scatter_plot_correlation.png)
+**Key Finding - Correlation Analysis:**                                                                                                    
+![Scatter Plot - Patient Experience vs Readmissions](./scatter_plot_correlation.png)                                                       
 *Statistical visualization proving patient experience directly impacts readmissions (r = -0.92, p < 0.01)*
 
-**Regional Strengths Analysis:**
-![Top 5 Strengths Comparison](./top5_strengths.png)
-*Comparative view showing what all hospitals do well - nurse communication, doctor communication, cleanliness*
+**Regional Strengths Analysis:**                                                                                                           
+![Top 5 Strengths Comparison](./top5_strengths.png)    
+ *Comparative view showing what all hospitals do well - nurse communication, doctor communication, cleanliness*
 
 ---
 
@@ -105,10 +105,13 @@ Visualizes the statistical relationship between patient experience and readmissi
 ## 🎨 Color Scheme
 
 **Hospital Colors** (maintained throughout all visualizations):
-- **Sarasota Memorial:** #4ECDC4 (Teal)
-- **Lakewood Ranch:** #FFA07A (Orange)
-- **Manatee Memorial:** #45B7D1 (Blue)
-- **Blake Hospital:** #95E1D3 (Green)
+- **Sarasota Memorial:** #84BEE0 (Sky Blue)
+- **Lakewood Ranch:** #3DAD9E (Teal)
+- **Manatee Memorial:** #F0C940 (Gold Yellow)
+- **Blake Hospital:** #D16837 (Burnt Orange)
+  
+**Design Rationale:**
+These colors were specifically chosen to respect each hospital's actual branding and visual identity. Additionally, each hospital's official logo is displayed in the dashboard, creating an authentic, professional presentation.
 
 **UI Colors:**
 - Background: #F9FAFB (Light Gray)
@@ -169,8 +172,8 @@ Visualizes the statistical relationship between patient experience and readmissi
 
 **Related Project Files:**
 - `../5_communication_strategy/roberts_story.md` - Patient-centered narrative
-- `../4_findings/readme.md` - Complete statistical analysis
-- `../3_data_analysis/readme.md` - Technical methodology
+- `../4_data_analysis/readme.md` - Technical methodology 
+- `../3_data_exploration/readme.md` - Complete statistical analysis
 - `../README.md` - Full project overview
 
 ---
@@ -187,7 +190,7 @@ MIT Emerging Talent (ET6) - Certificate in Computer and Data Science
 **Connect:**
 - GitHub: [Mr-glucose](https://github.com/mr-glucose)
 - LinkedIn: [Here](https://www.linkedin.com/in/lens-marc-arthur-dorvil)
-- Portfolio: [github.com/mr-glucose/Hospital-performance_Bradenton-Sarasota](https://github.com/mr-glucose/Hospital-performance_Bradenton-Sarasota)
+- Portfolio: [mr-glucose/Hospital-performance_Bradenton-Sarasota](https://github.com/mr-glucose/Hospital-performance_Bradenton-Sarasota)
 
 ---
 
