@@ -29,7 +29,7 @@ Interactive dashboard analyzing hospital performance across 4 facilities in Brad
 ## 📥 Download Dashboard Files
 
 ### For Viewing:
-- **[📄 Dashboard (PDF)](./6_final_presentation/Hospital_Performance_Dashboard.pdf)** - PDF version for easy viewing and sharing
+- **[📄 Dashboard (PDF)](./Hospital_Performance_Dashboard.pdf)** - PDF version for easy viewing and sharing
 
 ### For Exploration:
 - **[💾 Dashboard Source File (.pbix)](./Hospital_Performance_Dashboard.pbix)** - Requires Power BI Desktop (free) to open and explore interactively
