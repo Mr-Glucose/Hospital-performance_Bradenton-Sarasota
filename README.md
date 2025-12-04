@@ -136,9 +136,9 @@ I built a comprehensive Power BI dashboard to visualize hospital performance ana
 
 ### Download Dashboard Files
 
-**[📄 View Dashboard (PDF)](./6_final_presentation/Hospital-Performance-Dashboard.pdf)** - Print-ready version for presentations
+**[📄 View Dashboard (PDF)](./6_final_presentation/Hospital-Performance-Analysis-Dashboard.pdf)** - Print-ready version for presentations
 
-**[💾 Download Power BI File (.pbix)](./6_final_presentation/Hospital-Performance-Dashboard.pbix)** - Requires [Power BI Desktop](https://powerbi.microsoft.com/desktop/) (free) to explore interactively
+**[💾 Download Power BI File (.pbix)](./6_final_presentation/Hospital-Performance-Analysis-Dashboard.pbix)** - Requires [Power BI Desktop](https://powerbi.microsoft.com/desktop/) (free) to explore interactively
 
 ---
 
