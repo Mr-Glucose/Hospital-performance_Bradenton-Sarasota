@@ -29,10 +29,10 @@ Interactive dashboard analyzing hospital performance across 4 facilities in Brad
 ## 📥 Download Dashboard Files
 
 ### For Viewing:
-- **[📄 Dashboard (PDF)](./Hospital_Performance_Dashboard.pdf)** - PDF version for easy viewing and sharing
+- **[📄 Dashboard (PDF)](./Hospital-Performance-Analysis-Dashboard.pdf)** - PDF version for easy viewing and sharing
 
 ### For Exploration:
-- **[💾 Dashboard Source File (.pbix)](./Hospital_Performance_Dashboard.pbix)** - Requires Power BI Desktop (free) to open and explore interactively
+- **[💾 Dashboard Source File (.pbix)](./Hospital-Performance-Analysis-Dashboard.pbix)** - Requires Power BI Desktop (free) to open and explore interactively
   - [Download Power BI Desktop](https://powerbi.microsoft.com/desktop/)
 
 ---
@@ -54,8 +54,7 @@ Bar chart highlighting the 8-point gap in medication communication scores:
 
 ### Top 5 Regional Strengths
 Clustered column chart comparing hospitals on their best measures:
-- Nurse Communication (88+ regional average)
-- Doctor Communication (85+ regional average)
+- Ntor Communication (85+ regional average)
 - Would Recommend Hospital
 - Overall Hospital Rating
 - Hospital Cleanliness
