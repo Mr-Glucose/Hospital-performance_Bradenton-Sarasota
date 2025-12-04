@@ -390,7 +390,7 @@ This project showcases:
 
 **Project Type:** Data Science Capstone - MIT Emerging Talent (ET6)  
 **Author:** Arthur Dorvil  
-**Completion Date:** November 2025  
+**Completion Date:** December  2025  
 **Program:** Certificate in Computer and Data Science
 
 This capstone project demonstrates the complete data science workflow:
