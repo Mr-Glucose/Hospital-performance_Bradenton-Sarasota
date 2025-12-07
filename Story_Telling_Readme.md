@@ -277,7 +277,7 @@ This project uses publicly available data from CMS and does not contain any pati
 ├── 3_data_exploration/         Analysis notebooks and visualizations
 ├── 4_data_analysis/            Technical and non-technical reports
 ├── 5_communication/            Summaries and communication strategies
-├── 6_presentation/             Final presentation materials
+├── 6_final_presentation/             Final presentation materials
 └── reflections/                Project learning and retrospectives
 ```
 
