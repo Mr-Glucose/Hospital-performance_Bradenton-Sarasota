@@ -294,20 +294,23 @@ Hospital-performance_Bradenton-Sarasota/
 │   │   └── day4_notes.md
 │   └── readme.md
 │
-└── 6_final_presentation/              # Final dashboard & presentation artefacts
-    ├── Interactive_Dashboard_screenshots/
-    │   ├── dashboard_full_view.png
-    │   ├── dashboard_interactive_view1.png
-    │   ├── dashboard_interactive_view2.png
-    │   ├── dashboard_interactive_view3.png
-    │   └── dashboard_interactive_view4.png
-    │
-    ├── Hospital-Performance-Analysis-Dashboard.pbix   # Power BI source file
-    ├── Hospital-Performance-Analysis-Dashboard.pdf    # Dashboard export (PDF)
-    ├── KPI's_Hospitals_Findings.png
-    ├── scatter_plot_correlation.png
-    ├── top5_strengths.png
-    └── readme.md                       # Final presentation & dashboard docs
+|── 6_final_presentation/              # Final dashboard & presentation artefacts
+|    ├── Interactive_Dashboard_screenshots/
+|    │   ├── dashboard_full_view.png
+|    │   ├── dashboard_interactive_view1.png
+|    │   ├── dashboard_interactive_view2.png
+|    │   ├── dashboard_interactive_view3.png
+|    │   └── dashboard_interactive_view4.png
+|    │
+|    ├── Hospital-Performance-Analysis-Dashboard.pbix   # Power BI source file
+|    ├── Hospital-Performance-Analysis-Dashboard.pdf    # Dashboard export (PDF)
+|    ├── KPI's_Hospitals_Findings.png
+|    ├── scatter_plot_correlation.png
+|    ├── top5_strengths.png
+|    └── readme.md                       # Final presentation & dashboard docs
+|── 7_final_reflection/
+└── Final_Reflection.pdf             # Final redaction
+
 ```
 
 ---
