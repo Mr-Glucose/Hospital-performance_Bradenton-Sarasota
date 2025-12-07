@@ -98,7 +98,7 @@ This automated pipeline transforms raw healthcare data into actionable insights 
 
 #### Business Intelligence Dashboard (Power BI)
 
-**Live Dashboard:** [View Power BI Report](https://app.powerbi.com/view?r=YOUR_DASHBOARD_LINK_HERE)
+**Live Dashboard:** [View Power BI Report](https://app.powerbi.com/view?r=DASHBOARD_HERE)
 
 **Visualization Stack Architecture:**
 
@@ -261,7 +261,7 @@ graph TD
 │   ├── executive_summary.md          # One-page overview
 │   └── reflections/                  # Learning retrospectives
 │
-├── 📁 6_presentation/
+├── 📁 6_final_presentation/
 │   └── presentation_slides.pdf       # Final presentation (TBD)
 │
 ├── 📁 reflections/
